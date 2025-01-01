@@ -37,20 +37,11 @@ nav ul li {
     text-decoration: none;
 }
 
-a{color:cadetblue}
+a{color:cadetblue;
+text-decoration: none;}
 
-a:visited{
+a:visited, a:link, a:hover, a:focus{
 text-decoration: none;
 background-color:cadetblue;
 color:bisque;
 }
-
-a:hover{
-    text-decoration: none;
-    background-color:cadetblue;
-    color:bisque;}
-
-a:focus{
-    text-decoration: none;
-    background-color:cadetblue;
-    color:bisque;}
