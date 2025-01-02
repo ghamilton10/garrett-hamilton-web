@@ -2,20 +2,26 @@
     padding: 0%;
     margin: 0%;
     font-family:Arial;
-    background-color: darkslategray;
 }
 
 body{
-    padding: .5rem;
+    padding: 0;
+    background-color: darkslategray;
+}
+
+header{
+    background-color: cadetblue;
+    margin-top: 0;
 }
 
 h1, p, h2{
+    margin-left: 10px;
 color:bisque;
 font-family:Arial, Helvetica, sans-serif
 }
 
-header{
-    background-color:bisque;
+h1{
+    margin-left: 10px;
 }
 
 nav ul{
@@ -24,24 +30,25 @@ nav ul{
     justify-content: left;
     align-content: center;
     gap: 20px;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     list-style-type: none;
 }
 
 nav ul li {
-    background-color:cadetblue;
+    background-color:darkslategray;
     padding: 10px 20px;
     border-radius: 10px;
     color:white;
     text-decoration: none;
 }
 
-a{color:cadetblue;
+a{color:darkslategray;
 text-decoration: none;}
 
 a:visited, a:link, a:hover, a:focus{
 text-decoration: none;
-background-color:cadetblue;
+background-color:darkslategray;
 color:bisque;
 }
+
