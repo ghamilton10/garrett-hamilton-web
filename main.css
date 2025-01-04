@@ -12,23 +12,26 @@ body{
 header{
     background-color: cadetblue;
     margin-top: 0;
+    border-style: solid;
+    border-color:black;
 }
 
 h1, p, h2{
     margin-left: 10px;
-color:bisque;
+    color:bisque;
 font-family:Arial, Helvetica, sans-serif
 }
 
 h1{
     margin-left: 10px;
+    text-align: center;
 }
 
 nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-content: center;
+    justify-content: space-between;
+    align-content: space-between;
     gap: 20px;
     padding: 10px;
     margin: 0;
@@ -37,8 +40,8 @@ nav ul{
 
 nav ul li {
     background-color:darkslategray;
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 10px 250px;
+    border-radius: 20px;
     color:white;
     text-decoration: none;
 }
@@ -46,9 +49,29 @@ nav ul li {
 a{color:darkslategray;
 text-decoration: none;}
 
-a:visited, a:link, a:hover, a:focus{
+nav ul li:hover, a:hover{
+    text-decoration: none;
+    background-color: slategray;
+    color: bisque;
+}
+
+a:visited{
 text-decoration: none;
 background-color:darkslategray;
 color:bisque;
 }
 
+a:link{
+    color:bisque;
+}
+
+
+
+
+/*this is broken
+just the a: elements
+and the nav hover
+try to ctrl z or something
+
+ctrl z doesnt work after you restart
+dumbass*/
